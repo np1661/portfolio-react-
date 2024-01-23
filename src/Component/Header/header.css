@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.navbar__container{
+    border: 0;
+    background-color: #222831;
+    color: #EEEEEE;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__logo{
+    font-family: 'Alata', sans-serif;
+    margin: 20px 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.navbar__logo > span{
+    color: #00ADB5;
+}
+
+.navbar__right > ul{
+    margin-top: 12px;
+}
+
+.navbar__right > ul > li{
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-right: 5px;
+    letter-spacing: 1px;
+}
+
+.navbar__right > ul > li > a{
+    color: #00ADB5 !important;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+
+.navbar__right > ul > li > a:hover{
+    transform: scale(1.09);
+    background-color: #00ADB5 !important;
+    font-weight: 600;
+    color: white !important;
+    border-radius: 10px;
+}
+

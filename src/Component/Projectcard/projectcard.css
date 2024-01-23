@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500&display=swap');
+
+.project__card{
+    margin: 50px;
+    font-family: 'Outfit', sans-serif !important; 
+}
+
+.project__card > img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card__text >h4{
+    font-weight: 500;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+
+.card__text >h5{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.card__text >p{
+    font-weight: 200;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.lk_btn > a{
+    color:#00ADB5;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.lk_btn > a:hover{
+    color: white;
+    background-color: #00ADB5;
+    border: none;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+}
