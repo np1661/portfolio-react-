@@ -13,7 +13,7 @@ const About = () => {
           <h1>Hi, I'm <span>Nellaiappan V</span></h1>
           <p>Front-End Developer</p>
           <div className="aboutContainer__btn">
-            <a href="https://drive.google.com/file/d/1uA-bF9lD3EdAoFg74_6_Nk138tRcZV1L/view?usp=sharing" target='blank'><button className="btn">Download CV</button></a>
+            <a href="https://drive.google.com/file/d/1wJDM_d-N4l2SVVz6Iqc9UvV1DN7JIRVN/view?usp=sharing" target='blank'><button className="btn">Download CV</button></a>
             <Link to='contact'><button className="btn">Contact Me</button></Link>
           </div>
           <div className="aboutContainer__icon">
